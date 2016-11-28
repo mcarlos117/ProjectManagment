@@ -2,7 +2,7 @@
 using System.Collections;
 
 
-
+//Nice Bruh!
 public class Chase : MonoBehaviour {
 
     public Transform target;
@@ -24,7 +24,7 @@ public class Chase : MonoBehaviour {
         {
 
            
-
+//Isnt there a new pokemon game??
             transform.LookAt(target.position);
 
             if ((transform.position - target.position).magnitude > EPSILON)
