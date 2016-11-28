@@ -6,10 +6,10 @@ using System; //allows string.Split to be used with SplitStringOptions.none
 using System.Collections;
 using DatabaseControl;//This line is always needed for any C# script using the database control requests. See PDF documentation for more information
 //use 'import DatabaseControl;' if you are using JS
-
+//Miguel is love
 public class LoginMenu : MonoBehaviour {
 	////These variables are set in the Inspector:
-	
+	//Nobody break this
 	//they are enabled and disabled to show and hide the different parts of the UI
 	public GameObject login_object;
 	public GameObject register_object;
