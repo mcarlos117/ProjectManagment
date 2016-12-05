@@ -5,7 +5,7 @@ using UnityEngine.Networking;
 using UnityEngine.Networking.Match;
 
 
-
+//Join Game
 public class JoinGame : MonoBehaviour {
 
 
