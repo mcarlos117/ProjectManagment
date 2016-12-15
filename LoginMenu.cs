@@ -137,6 +137,9 @@ public class LoginMenu : MonoBehaviour {
 					//ready to send request
 					StartCoroutine (sendLoginRequest (input_login_username.text, input_login_password.text)); //calls function to send login request
 					part = 3; //show 'loading...'
+					
+					 Web instance = new Web();
+               				 Debug.Log(StartCoroutine(instance.DoWWW()));
 				}
 			
 			} else {
